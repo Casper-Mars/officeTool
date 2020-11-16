@@ -14,8 +14,8 @@ package chartDrawing
 import (
 	_f "encoding/xml"
 	_a "fmt"
-	_ac "github.com/unidoc/unioffice"
-	_af "github.com/unidoc/unioffice/schema/soo/dml"
+	_ac "github.com/Casper-Mars/officeTool"
+	_af "github.com/Casper-Mars/officeTool/schema/soo/dml"
 	_e "strconv"
 )
 

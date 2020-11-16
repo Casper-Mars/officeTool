@@ -14,7 +14,7 @@ package content_types
 import (
 	_f "encoding/xml"
 	_bd "fmt"
-	_be "github.com/unidoc/unioffice"
+	_be "github.com/Casper-Mars/officeTool"
 	_c "regexp"
 )
 

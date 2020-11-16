@@ -29,17 +29,17 @@ import (
 	_cf "bytes"
 	_bf "errors"
 	_cfc "fmt"
-	_e "github.com/unidoc/unioffice"
-	_ga "github.com/unidoc/unioffice/color"
-	_gc "github.com/unidoc/unioffice/common"
-	_ba "github.com/unidoc/unioffice/common/tempstorage"
-	_fg "github.com/unidoc/unioffice/measurement"
-	_eff "github.com/unidoc/unioffice/schema/soo/dml"
-	_ad "github.com/unidoc/unioffice/schema/soo/dml/picture"
-	_bc "github.com/unidoc/unioffice/schema/soo/ofc/sharedTypes"
-	_ef "github.com/unidoc/unioffice/schema/soo/pkg/relationships"
-	_ec "github.com/unidoc/unioffice/schema/soo/wml"
-	_gf "github.com/unidoc/unioffice/zippkg"
+	_e "github.com/Casper-Mars/officeTool"
+	_ga "github.com/Casper-Mars/officeTool/color"
+	_gc "github.com/Casper-Mars/officeTool/common"
+	_ba "github.com/Casper-Mars/officeTool/common/tempstorage"
+	_fg "github.com/Casper-Mars/officeTool/measurement"
+	_eff "github.com/Casper-Mars/officeTool/schema/soo/dml"
+	_ad "github.com/Casper-Mars/officeTool/schema/soo/dml/picture"
+	_bc "github.com/Casper-Mars/officeTool/schema/soo/ofc/sharedTypes"
+	_ef "github.com/Casper-Mars/officeTool/schema/soo/pkg/relationships"
+	_ec "github.com/Casper-Mars/officeTool/schema/soo/wml"
+	_gf "github.com/Casper-Mars/officeTool/zippkg"
 	_bg "image"
 	_d "image/jpeg"
 	_f "io"
@@ -1185,7 +1185,7 @@ type Fonts struct{ _dcade *_ec.CT_Fonts }
 type Numbering struct{ _ebge *_ec.Numbering }
 
 // SetConformance sets conformance attribute of the document
-// as one of these values from github.com/unidoc/unioffice/schema/soo/ofc/sharedTypes:
+// as one of these values from github.com/Casper-Mars/officeTool/schema/soo/ofc/sharedTypes:
 // ST_ConformanceClassUnset, ST_ConformanceClassStrict or ST_ConformanceClassTransitional.
 func (_bddc Document) SetConformance(conformanceAttr _bc.ST_ConformanceClass) {
 	_bddc._bbef.ConformanceAttr = conformanceAttr
@@ -3217,7 +3217,7 @@ func (_gaage RunProperties) Fonts() Fonts {
 }
 
 // SetStrict is a shortcut for document.SetConformance,
-// as one of these values from github.com/unidoc/unioffice/schema/soo/ofc/sharedTypes:
+// as one of these values from github.com/Casper-Mars/officeTool/schema/soo/ofc/sharedTypes:
 // ST_ConformanceClassUnset, ST_ConformanceClassStrict or ST_ConformanceClassTransitional.
 func (_edae Document) SetStrict(strict bool) {
 	if strict {

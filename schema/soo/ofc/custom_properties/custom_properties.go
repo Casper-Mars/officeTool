@@ -14,9 +14,9 @@ package custom_properties
 import (
 	_d "encoding/xml"
 	_c "fmt"
-	_ce "github.com/unidoc/unioffice"
-	_b "github.com/unidoc/unioffice/schema/soo/ofc/docPropsVTypes"
-	_ge "github.com/unidoc/unioffice/schema/soo/ofc/sharedTypes"
+	_ce "github.com/Casper-Mars/officeTool"
+	_b "github.com/Casper-Mars/officeTool/schema/soo/ofc/docPropsVTypes"
+	_ge "github.com/Casper-Mars/officeTool/schema/soo/ofc/sharedTypes"
 	_gg "strconv"
 	_f "time"
 )

@@ -14,7 +14,7 @@ package core_properties
 import (
 	_dd "encoding/xml"
 	_c "fmt"
-	_cb "github.com/unidoc/unioffice"
+	_cb "github.com/Casper-Mars/officeTool"
 	_dg "time"
 )
 

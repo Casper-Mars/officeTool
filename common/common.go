@@ -20,18 +20,18 @@ import (
 	_ag "bytes"
 	_gae "encoding/xml"
 	_g "fmt"
-	_dg "github.com/unidoc/unioffice"
-	_ff "github.com/unidoc/unioffice/common/tempstorage"
-	_dd "github.com/unidoc/unioffice/common/tempstorage/diskstore"
-	_df "github.com/unidoc/unioffice/measurement"
-	_da "github.com/unidoc/unioffice/schema/soo/dml"
-	_c "github.com/unidoc/unioffice/schema/soo/ofc/custom_properties"
-	_ac "github.com/unidoc/unioffice/schema/soo/ofc/docPropsVTypes"
-	_f "github.com/unidoc/unioffice/schema/soo/ofc/extended_properties"
-	_fb "github.com/unidoc/unioffice/schema/soo/pkg/content_types"
-	_fe "github.com/unidoc/unioffice/schema/soo/pkg/metadata/core_properties"
-	_cc "github.com/unidoc/unioffice/schema/soo/pkg/relationships"
-	_eg "github.com/unidoc/unioffice/zippkg"
+	_dg "github.com/Casper-Mars/officeTool"
+	_ff "github.com/Casper-Mars/officeTool/common/tempstorage"
+	_dd "github.com/Casper-Mars/officeTool/common/tempstorage/diskstore"
+	_df "github.com/Casper-Mars/officeTool/measurement"
+	_da "github.com/Casper-Mars/officeTool/schema/soo/dml"
+	_c "github.com/Casper-Mars/officeTool/schema/soo/ofc/custom_properties"
+	_ac "github.com/Casper-Mars/officeTool/schema/soo/ofc/docPropsVTypes"
+	_f "github.com/Casper-Mars/officeTool/schema/soo/ofc/extended_properties"
+	_fb "github.com/Casper-Mars/officeTool/schema/soo/pkg/content_types"
+	_fe "github.com/Casper-Mars/officeTool/schema/soo/pkg/metadata/core_properties"
+	_cc "github.com/Casper-Mars/officeTool/schema/soo/pkg/relationships"
+	_eg "github.com/Casper-Mars/officeTool/zippkg"
 	_ga "image"
 	_ "image/gif"
 	_ "image/jpeg"
@@ -827,7 +827,7 @@ func (_ggfg Relationships) AddRelationship(target, ctype string) Relationship {
 }
 
 // Application returns the name of the application that created the document.
-// For unioffice created documents, it defaults to github.com/unidoc/unioffice
+// For unioffice created documents, it defaults to github.com/Casper-Mars/officeTool
 func (_bc AppProperties) Application() string {
 	if _bc._gde.Application != nil {
 		return *_bc._gde.Application
@@ -1055,7 +1055,7 @@ func (_bege CustomProperties) SetPropertyAsLpwstr(name string, lpwstr string) {
 }
 
 // Company returns the name of the company that created the document.
-// For unioffice created documents, it defaults to github.com/unidoc/unioffice
+// For unioffice created documents, it defaults to github.com/Casper-Mars/officeTool
 func (_af AppProperties) Company() string {
 	if _af._gde.Company != nil {
 		return *_af._gde.Company

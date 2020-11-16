@@ -14,8 +14,8 @@ package docPropsVTypes
 import (
 	_e "encoding/xml"
 	_g "fmt"
-	_c "github.com/unidoc/unioffice"
-	_dc "github.com/unidoc/unioffice/schema/soo/ofc/sharedTypes"
+	_c "github.com/Casper-Mars/officeTool"
+	_dc "github.com/Casper-Mars/officeTool/schema/soo/ofc/sharedTypes"
 	_b "regexp"
 	_d "strconv"
 	_bb "time"

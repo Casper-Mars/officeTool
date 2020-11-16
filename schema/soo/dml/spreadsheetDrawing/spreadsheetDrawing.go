@@ -14,8 +14,8 @@ package spreadsheetDrawing
 import (
 	_b "encoding/xml"
 	_eb "fmt"
-	_g "github.com/unidoc/unioffice"
-	_ge "github.com/unidoc/unioffice/schema/soo/dml"
+	_g "github.com/Casper-Mars/officeTool"
+	_ge "github.com/Casper-Mars/officeTool/schema/soo/dml"
 	_bb "strconv"
 )
 

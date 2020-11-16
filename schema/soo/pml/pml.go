@@ -14,9 +14,9 @@ package pml
 import (
 	_b "encoding/xml"
 	_fd "fmt"
-	_g "github.com/unidoc/unioffice"
-	_bc "github.com/unidoc/unioffice/schema/soo/dml"
-	_e "github.com/unidoc/unioffice/schema/soo/ofc/sharedTypes"
+	_g "github.com/Casper-Mars/officeTool"
+	_bc "github.com/Casper-Mars/officeTool/schema/soo/dml"
+	_e "github.com/Casper-Mars/officeTool/schema/soo/ofc/sharedTypes"
 	_f "strconv"
 	_d "time"
 )

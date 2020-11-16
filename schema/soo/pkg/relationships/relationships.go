@@ -14,7 +14,7 @@ package relationships
 import (
 	_ga "encoding/xml"
 	_d "fmt"
-	_gb "github.com/unidoc/unioffice"
+	_gb "github.com/Casper-Mars/officeTool"
 )
 
 type CT_Relationship struct {

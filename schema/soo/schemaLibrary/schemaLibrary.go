@@ -14,7 +14,7 @@ package schemaLibrary
 import (
 	_c "encoding/xml"
 	_ge "fmt"
-	_e "github.com/unidoc/unioffice"
+	_e "github.com/Casper-Mars/officeTool"
 )
 
 func (_aag *CT_SchemaLibrary) UnmarshalXML(d *_c.Decoder, start _c.StartElement) error {

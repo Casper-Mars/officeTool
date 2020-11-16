@@ -14,10 +14,10 @@ package vmldrawing
 import (
 	_e "encoding/xml"
 	_fc "fmt"
-	_g "github.com/unidoc/unioffice"
-	_cc "github.com/unidoc/unioffice/schema/soo/ofc/sharedTypes"
-	_c "github.com/unidoc/unioffice/schema/urn/schemas_microsoft_com/office/excel"
-	_gb "github.com/unidoc/unioffice/schema/urn/schemas_microsoft_com/vml"
+	_g "github.com/Casper-Mars/officeTool"
+	_cc "github.com/Casper-Mars/officeTool/schema/soo/ofc/sharedTypes"
+	_c "github.com/Casper-Mars/officeTool/schema/urn/schemas_microsoft_com/office/excel"
+	_gb "github.com/Casper-Mars/officeTool/schema/urn/schemas_microsoft_com/vml"
 )
 
 func (_ef *Container) MarshalXML(e *_e.Encoder, start _e.StartElement) error {

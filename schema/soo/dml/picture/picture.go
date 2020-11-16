@@ -13,8 +13,8 @@ package picture
 
 import (
 	_f "encoding/xml"
-	_fb "github.com/unidoc/unioffice"
-	_c "github.com/unidoc/unioffice/schema/soo/dml"
+	_fb "github.com/Casper-Mars/officeTool"
+	_c "github.com/Casper-Mars/officeTool/schema/soo/dml"
 )
 
 type CT_Picture struct {
