@@ -14,7 +14,7 @@ package word
 import (
 	_a "encoding/xml"
 	_d "fmt"
-	_e "github.com/unidoc/unioffice"
+	_e "github.com/Casper-Mars/officeTool"
 	_cf "strconv"
 )
 

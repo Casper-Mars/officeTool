@@ -14,8 +14,8 @@ package dml
 import (
 	_g "encoding/xml"
 	_bb "fmt"
-	_fc "github.com/unidoc/unioffice"
-	_a "github.com/unidoc/unioffice/schema/soo/ofc/sharedTypes"
+	_fc "github.com/Casper-Mars/officeTool"
+	_a "github.com/Casper-Mars/officeTool/schema/soo/ofc/sharedTypes"
 	_fd "regexp"
 	_fg "strconv"
 	_f "time"

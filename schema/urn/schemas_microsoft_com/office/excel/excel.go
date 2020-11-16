@@ -14,8 +14,8 @@ package excel
 import (
 	_e "encoding/xml"
 	_a "fmt"
-	_c "github.com/unidoc/unioffice"
-	_g "github.com/unidoc/unioffice/schema/soo/ofc/sharedTypes"
+	_c "github.com/Casper-Mars/officeTool"
+	_g "github.com/Casper-Mars/officeTool/schema/soo/ofc/sharedTypes"
 )
 
 func NewClientData() *ClientData {

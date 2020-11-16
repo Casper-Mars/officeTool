@@ -13,8 +13,8 @@ package extended_properties
 
 import (
 	_e "encoding/xml"
-	_ee "github.com/unidoc/unioffice"
-	_a "github.com/unidoc/unioffice/schema/soo/ofc/docPropsVTypes"
+	_ee "github.com/Casper-Mars/officeTool"
+	_a "github.com/Casper-Mars/officeTool/schema/soo/ofc/docPropsVTypes"
 )
 
 // Validate validates the Properties and its children

@@ -14,7 +14,7 @@ package powerpoint
 import (
 	_d "encoding/xml"
 	_g "fmt"
-	_df "github.com/unidoc/unioffice"
+	_df "github.com/Casper-Mars/officeTool"
 )
 
 // ValidateWithPath validates the Textdata and its children, prefixing error messages with path

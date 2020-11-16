@@ -14,9 +14,9 @@ package sml
 import (
 	_gd "encoding/xml"
 	_b "fmt"
-	_e "github.com/unidoc/unioffice"
-	_c "github.com/unidoc/unioffice/schema/soo/dml/spreadsheetDrawing"
-	_af "github.com/unidoc/unioffice/schema/soo/ofc/sharedTypes"
+	_e "github.com/Casper-Mars/officeTool"
+	_c "github.com/Casper-Mars/officeTool/schema/soo/dml/spreadsheetDrawing"
+	_af "github.com/Casper-Mars/officeTool/schema/soo/ofc/sharedTypes"
 	_a "strconv"
 	_d "strings"
 	_db "time"

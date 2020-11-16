@@ -31,7 +31,7 @@ package format
 import (
 	_f "bytes"
 	_d "fmt"
-	_a "github.com/unidoc/unioffice"
+	_a "github.com/Casper-Mars/officeTool"
 	_dg "io"
 	_df "math"
 	_e "strconv"

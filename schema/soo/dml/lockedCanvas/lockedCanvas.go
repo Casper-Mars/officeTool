@@ -14,8 +14,8 @@ package lockedCanvas
 import (
 	_c "encoding/xml"
 	_b "fmt"
-	_gc "github.com/unidoc/unioffice"
-	_e "github.com/unidoc/unioffice/schema/soo/dml"
+	_gc "github.com/Casper-Mars/officeTool"
+	_e "github.com/Casper-Mars/officeTool/schema/soo/dml"
 )
 
 type LockedCanvas struct{ _e.CT_GvmlGroupShape }

@@ -14,8 +14,8 @@ package diagram
 import (
 	_a "encoding/xml"
 	_ef "fmt"
-	_c "github.com/unidoc/unioffice"
-	_fd "github.com/unidoc/unioffice/schema/soo/dml"
+	_c "github.com/Casper-Mars/officeTool"
+	_fd "github.com/Casper-Mars/officeTool/schema/soo/dml"
 	_f "strconv"
 )
 

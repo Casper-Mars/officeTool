@@ -13,12 +13,12 @@ package chart
 
 import (
 	_e "fmt"
-	_c "github.com/unidoc/unioffice"
-	_gd "github.com/unidoc/unioffice/color"
-	_cg "github.com/unidoc/unioffice/drawing"
-	_a "github.com/unidoc/unioffice/measurement"
-	_ea "github.com/unidoc/unioffice/schema/soo/dml"
-	_gf "github.com/unidoc/unioffice/schema/soo/dml/chart"
+	_c "github.com/Casper-Mars/officeTool"
+	_gd "github.com/Casper-Mars/officeTool/color"
+	_cg "github.com/Casper-Mars/officeTool/drawing"
+	_a "github.com/Casper-Mars/officeTool/measurement"
+	_ea "github.com/Casper-Mars/officeTool/schema/soo/dml"
+	_gf "github.com/Casper-Mars/officeTool/schema/soo/dml/chart"
 	_d "math/rand"
 )
 

@@ -12,10 +12,10 @@
 package drawing
 
 import (
-	_c "github.com/unidoc/unioffice"
-	_g "github.com/unidoc/unioffice/color"
-	_d "github.com/unidoc/unioffice/measurement"
-	_a "github.com/unidoc/unioffice/schema/soo/dml"
+	_c "github.com/Casper-Mars/officeTool"
+	_g "github.com/Casper-Mars/officeTool/color"
+	_d "github.com/Casper-Mars/officeTool/measurement"
+	_a "github.com/Casper-Mars/officeTool/schema/soo/dml"
 )
 
 // X returns the inner wrapped XML type.

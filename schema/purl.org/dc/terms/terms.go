@@ -14,8 +14,8 @@ package terms
 import (
 	_f "encoding/xml"
 	_eb "fmt"
-	_b "github.com/unidoc/unioffice"
-	_a "github.com/unidoc/unioffice/schema/purl.org/dc/elements"
+	_b "github.com/Casper-Mars/officeTool"
+	_a "github.com/Casper-Mars/officeTool/schema/purl.org/dc/elements"
 )
 
 // ValidateWithPath validates the RFC3066 and its children, prefixing error messages with path
