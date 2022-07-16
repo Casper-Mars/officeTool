@@ -41,7 +41,7 @@ DOCX/XLSX/PPTX.
 
 ## Installation ##
     
-    go get github.com/Casper-Mars/officeTool/
+    go get github.com/Casper-Mars/officeTool
 
 ## Document Examples ##
 
