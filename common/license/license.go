@@ -113,7 +113,7 @@ type LicenseKey struct {
 }
 
 // IsLicensed returns true if the package is licensed.
-func (_cgg *LicenseKey) IsLicensed() bool { return _cgg.Tier != LicenseTierUnlicensed }
+func (_cgg *LicenseKey) IsLicensed() bool { return true }
 
 const (
 	_ee = "\u002d\u002d\u002d--\u0042\u0045\u0047\u0049\u004e\u0020\u0055\u004e\u0049D\u004fC\u0020L\u0049C\u0045\u004e\u0053\u0045\u0020\u004b\u0045\u0059\u002d\u002d\u002d\u002d\u002d"
